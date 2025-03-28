@@ -395,12 +395,12 @@ MonoBehaviour:
   _ellipsoidOverride: {fileID: 0}
   _originPlacement: 1
   _originAuthority: 1
-  _latitude: 43.94656336307419
-  _longitude: -78.89591127310213
-  _height: 178.84602140250385
-  _ecefX: 885870.7087010262
-  _ecefY: -4513615.764362565
-  _ecefZ: 4403942.7720671855
+  _latitude: 43.946559106262285
+  _longitude: -78.89592652239861
+  _height: 179.976315069882
+  _ecefX: 885869.7273492301
+  _ecefY: -4513617.1208050735
+  _ecefZ: 4403943.21592762
   _scale: 1
 --- !u!4 &527413315
 Transform:
@@ -1089,8 +1089,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982690786}
   serializedVersion: 2
-  m_LocalRotation: {x: 1.3877783e-17, y: 0, z: -6.9388914e-18, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.00002387324, y: -0.000003830917, z: -0.00000785326, w: 1}
+  m_LocalPosition: {x: 50.78297, y: -20.79765, z: 152.2905}
   m_LocalScale: {x: 1, y: 1.0000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1263,24 +1263,24 @@ MonoBehaviour:
   _detectTransformChanges: 1
   _localToGlobeFixedMatrix:
     c0:
-      x: 0.9812789227898541
-      y: 0.19259199279405043
-      z: 0
+      x: 0.9812757719485636
+      y: 0.19260804593204744
+      z: -0.0000053840977707030085
       w: 0
     c1:
-      x: 0.13866383690515438
-      y: -0.706508606791888
-      z: 0.693987495650744
+      x: 0.13867268922535478
+      y: -0.7064731529152911
+      z: 0.6940218186258996
       w: 0
     c2:
-      x: -0.13365638696228038
-      y: 0.6809950586189792
-      z: 0.7199872918050167
+      x: -0.13367033479497575
+      y: 0.6810272988942512
+      z: 0.7199542067080373
       w: 0
     c3:
-      x: 885870.7087010262
-      y: -4513615.764362565
-      z: 4403942.7720671855
+      x: 885896.3211673112
+      y: -4513488.937640414
+      z: 4404038.429850353
       w: 1
   _localToGlobeFixedMatrixIsValid: 1
 --- !u!114 &982690792
