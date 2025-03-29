@@ -16,7 +16,7 @@ namespace Interaction
 
         private void LateUpdate()
         {
-            transform.LookAt(target);
+            transform.LookAt(transform.position-target.position);
         }
     }
 }
