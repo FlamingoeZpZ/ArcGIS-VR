@@ -180,8 +180,8 @@ MonoBehaviour:
   _enableFogCulling: 1
   _enforceCulledScreenSpaceError: 1
   _culledScreenSpaceError: 64
-  _opaqueMaterial: {fileID: 0}
-  _generateSmoothNormals: 0
+  _opaqueMaterial: {fileID: 2100000, guid: c7f51dfa89a205946bb7e56ad16ccc55, type: 2}
+  _generateSmoothNormals: 1
   _pointCloudShading:
     _attenuation: 0
     _geometricErrorScale: 1
@@ -1263,24 +1263,24 @@ MonoBehaviour:
   _detectTransformChanges: 1
   _localToGlobeFixedMatrix:
     c0:
-      x: 0.9812757719485636
-      y: 0.19260804593204744
-      z: -0.0000053840977707030085
+      x: 0.98127577194871
+      y: 0.19260804593130287
+      z: -0.000005384097271238738
       w: 0
     c1:
-      x: 0.13867268922535478
-      y: -0.7064731529152911
-      z: 0.6940218186258996
+      x: 0.13867268922429365
+      y: -0.7064731529145212
+      z: 0.6940218186268952
       w: 0
     c2:
-      x: -0.13367033479497575
-      y: 0.6810272988942512
-      z: 0.7199542067080373
+      x: -0.13367033479500365
+      y: 0.6810272988952605
+      z: 0.7199542067070774
       w: 0
     c3:
-      x: 885896.3211673112
-      y: -4513488.937640414
-      z: 4404038.429850353
+      x: 885896.3211648104
+      y: -4513488.9376367135
+      z: 4404038.429855442
       w: 1
   _localToGlobeFixedMatrixIsValid: 1
 --- !u!114 &982690792
