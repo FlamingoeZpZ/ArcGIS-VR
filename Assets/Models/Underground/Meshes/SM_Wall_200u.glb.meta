@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: d6ebc8bde3ca7944b8568772dd75ed20
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_Subway_Marble_SM_Wall_200u
+    second: {fileID: 2100000, guid: 7cb8b8f0fb34ada48bb491beed1f5074, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -23,13 +28,13 @@ ScriptedImporter:
   _importNormals: 0
   _importTangents: 0
   _importCamera: 2
-  _importAnimations: 2
+  _importAnimations: 0
   _mecanimHumanoidFlip: 0
   _addAnimatorComponent: 0
   _animationLoopTime: 1
   _animationLoopPose: 0
   _importMaterials: 1
-  _enableGpuInstancing: 0
+  _enableGpuInstancing: 1
   _texturesReadWriteEnabled: 1
   _generateMipMaps: 1
   _useSceneNameIdentifier: 1
@@ -41,11 +46,11 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
+  - {fileID: 3655138441634505910, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: -4153021224384768206, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
+  - {fileID: 2199712803374608500, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
+  - {fileID: -4267006811038010552, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -57,13 +62,13 @@ ScriptedImporter:
     used: 1
     required: 0
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: -4153021224384768206, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 2199712803374608500, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -4267006811038010552, guid: d6ebc8bde3ca7944b8568772dd75ed20, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
   _mainAssetIdentifier: scenes/Scene

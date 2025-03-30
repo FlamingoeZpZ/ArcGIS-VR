@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 3f86b9e5cb76d764297dc58d7043ff49
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_Subway_Marble_SM_Wall_Corner_100u_Flipped
+    second: {fileID: 2100000, guid: 4e752203d73ca134c9477de7f1d9aa1c, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -23,13 +28,13 @@ ScriptedImporter:
   _importNormals: 0
   _importTangents: 0
   _importCamera: 2
-  _importAnimations: 2
+  _importAnimations: 0
   _mecanimHumanoidFlip: 0
   _addAnimatorComponent: 0
   _animationLoopTime: 1
   _animationLoopPose: 0
   _importMaterials: 1
-  _enableGpuInstancing: 0
+  _enableGpuInstancing: 1
   _texturesReadWriteEnabled: 1
   _generateMipMaps: 1
   _useSceneNameIdentifier: 1
@@ -41,11 +46,11 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
+  - {fileID: 2812013294801395350, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 3751255729669418997, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
+  - {fileID: -1515145425466694997, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
+  - {fileID: 4412450053881236790, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -57,13 +62,13 @@ ScriptedImporter:
     used: 1
     required: 0
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: 3751255729669418997, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -1515145425466694997, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 4412450053881236790, guid: 3f86b9e5cb76d764297dc58d7043ff49, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
   _mainAssetIdentifier: scenes/Scene

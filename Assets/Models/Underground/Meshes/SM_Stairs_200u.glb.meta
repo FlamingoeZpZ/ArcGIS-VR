@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 99c5580fe2c60e2489c5e9d4b6c9bfef
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_Stairs
+    second: {fileID: 2100000, guid: 6e1d0959550e6bd4091228d9dcedeab7, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -23,13 +28,13 @@ ScriptedImporter:
   _importNormals: 0
   _importTangents: 0
   _importCamera: 2
-  _importAnimations: 2
+  _importAnimations: 0
   _mecanimHumanoidFlip: 0
   _addAnimatorComponent: 0
   _animationLoopTime: 1
   _animationLoopPose: 0
   _importMaterials: 1
-  _enableGpuInstancing: 0
+  _enableGpuInstancing: 1
   _texturesReadWriteEnabled: 1
   _generateMipMaps: 1
   _useSceneNameIdentifier: 1
@@ -41,14 +46,14 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 5129865610235771293, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
+  - {fileID: -9197200099118666762, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 4214507178147769242, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
+  - {fileID: -4961446426959487128, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
+  - {fileID: -7893157840194673538, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
+  - {fileID: 6097155305828115525, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
+  - {fileID: -7276282258115634713, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -56,22 +61,22 @@ ScriptedImporter:
   animations: []
   _extensions: []
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: 4214507178147769242, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -4961446426959487128, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7893157840194673538, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
-  - texture: {instanceID: 0}
+  - texture: {fileID: 6097155305828115525, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7276282258115634713, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7893157840194673538, guid: 99c5580fe2c60e2489c5e9d4b6c9bfef, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
   _mainAssetIdentifier: scenes/Scene

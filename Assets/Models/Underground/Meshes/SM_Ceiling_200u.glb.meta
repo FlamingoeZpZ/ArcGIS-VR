@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 369538fb475e67244b657b679af18d4a
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_Concrete_Ceiling01
+    second: {fileID: 2100000, guid: 561954981b384dd4fa1a9dde57e10fbb, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -23,13 +28,13 @@ ScriptedImporter:
   _importNormals: 0
   _importTangents: 0
   _importCamera: 2
-  _importAnimations: 2
+  _importAnimations: 0
   _mecanimHumanoidFlip: 0
   _addAnimatorComponent: 0
   _animationLoopTime: 1
   _animationLoopPose: 0
   _importMaterials: 1
-  _enableGpuInstancing: 0
+  _enableGpuInstancing: 1
   _texturesReadWriteEnabled: 1
   _generateMipMaps: 1
   _useSceneNameIdentifier: 1
@@ -41,11 +46,11 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
+  - {fileID: -8861286332793901869, guid: 369538fb475e67244b657b679af18d4a, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 4565793448862554707, guid: 369538fb475e67244b657b679af18d4a, type: 3}
+  - {fileID: 6263059763253163221, guid: 369538fb475e67244b657b679af18d4a, type: 3}
+  - {fileID: -7678304615314913628, guid: 369538fb475e67244b657b679af18d4a, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -53,13 +58,13 @@ ScriptedImporter:
   animations: []
   _extensions: []
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: 4565793448862554707, guid: 369538fb475e67244b657b679af18d4a, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 6263059763253163221, guid: 369538fb475e67244b657b679af18d4a, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7678304615314913628, guid: 369538fb475e67244b657b679af18d4a, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
   _mainAssetIdentifier: scenes/Scene

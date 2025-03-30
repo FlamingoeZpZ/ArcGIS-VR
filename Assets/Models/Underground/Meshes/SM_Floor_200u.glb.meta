@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 9073842763b7ff04f9c409ba9ff9edcf
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_Concrete_Floor01_SM_Floor_200u
+    second: {fileID: 2100000, guid: c2bdb1c274a7e034597fe2f249ec2632, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -23,13 +28,13 @@ ScriptedImporter:
   _importNormals: 0
   _importTangents: 0
   _importCamera: 2
-  _importAnimations: 2
+  _importAnimations: 0
   _mecanimHumanoidFlip: 0
   _addAnimatorComponent: 0
   _animationLoopTime: 1
   _animationLoopPose: 0
   _importMaterials: 1
-  _enableGpuInstancing: 0
+  _enableGpuInstancing: 1
   _texturesReadWriteEnabled: 1
   _generateMipMaps: 1
   _useSceneNameIdentifier: 1
@@ -41,11 +46,11 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
+  - {fileID: -4533134269621645002, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 5110207345126357875, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
+  - {fileID: -1681595529990510396, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
+  - {fileID: 1373415965893921259, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -57,13 +62,13 @@ ScriptedImporter:
     used: 1
     required: 0
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: 5110207345126357875, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -1681595529990510396, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 1373415965893921259, guid: 9073842763b7ff04f9c409ba9ff9edcf, type: 3}
     shouldBeLinear: 1
     shouldBeNormalMap: 1
   _mainAssetIdentifier: scenes/Scene
