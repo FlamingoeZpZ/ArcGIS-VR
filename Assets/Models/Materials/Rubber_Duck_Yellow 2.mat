@@ -172,7 +172,7 @@ Material:
     - iridescenceThicknessMinimum: 100
     - iridescenceThicknessTextureRotation: 0
     - iridescenceThicknessTextureTexCoord: 0
-    - metallicFactor: 0
+    - metallicFactor: 1
     - metallicRoughnessTextureRotation: 0
     - metallicRoughnessTextureTexCoord: 0
     - normalScale: 1
@@ -200,7 +200,7 @@ Material:
     - transmissionTextureTexCoord: 0
     m_Colors:
     - attenuationColor: {r: 1, g: 1, b: 1, a: 0}
-    - baseColorFactor: {r: 1, g: 0.18823528, b: 0.96123594, a: 1}
+    - baseColorFactor: {r: 1, g: 0.70380837, b: 0.18823528, a: 1}
     - emissiveFactor: {r: 0, g: 0, b: 0, a: 0}
     - sheenColorFactor: {r: 0, g: 0, b: 0, a: 0}
     - specularColorFactor: {r: 1, g: 1, b: 1, a: 1}
