@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: e39a3e1b1de9d8340aa379ab568bc0e8
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_Duck_Yellow
+    second: {fileID: 2100000, guid: 74bb244b016d04a4694686236f0f19a6, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -41,10 +46,10 @@ ScriptedImporter:
 '
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: -7408813495181756805, guid: e39a3e1b1de9d8340aa379ab568bc0e8, type: 3}
+  - {fileID: 9103985536159407682, guid: e39a3e1b1de9d8340aa379ab568bc0e8, type: 3}
+  - {fileID: -8383667452544191944, guid: e39a3e1b1de9d8340aa379ab568bc0e8, type: 3}
+  - {fileID: 4618720440553388652, guid: e39a3e1b1de9d8340aa379ab568bc0e8, type: 3}
   textures: []
   hasSceneData: 1
   hasAnimationData: 0
