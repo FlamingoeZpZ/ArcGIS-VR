@@ -1046,6 +1046,7 @@ MonoBehaviour:
   m_PushVelocityBias: 1.25
   m_MinAdditionalVelocityScalar: 0.05
   m_MaxAdditionalVelocityScalar: 1.5
+  m_EnableDebugLines: 0
 --- !u!114 &8971473249634516604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5194,6 +5195,7 @@ MonoBehaviour:
   m_PushVelocityBias: 1.25
   m_MinAdditionalVelocityScalar: 0.05
   m_MaxAdditionalVelocityScalar: 1.5
+  m_EnableDebugLines: 0
 --- !u!114 &9117716547951774331
 MonoBehaviour:
   m_ObjectHideFlags: 0
