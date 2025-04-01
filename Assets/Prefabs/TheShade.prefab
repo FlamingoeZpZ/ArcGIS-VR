@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 381349200258665937}
   - component: {fileID: 1687524639714337981}
   - component: {fileID: 6405803781093048529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &381349200258665937
 Transform:
@@ -98,12 +98,12 @@ GameObject:
   - component: {fileID: 299766021319119819}
   - component: {fileID: 1829466295747433753}
   - component: {fileID: 3902868153159379158}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2603542145885634626
 Transform:
@@ -186,7 +186,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -203,12 +203,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1415582456718944160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TheShade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1415582456718944160
 Transform:
@@ -241,12 +241,12 @@ GameObject:
   - component: {fileID: 1436853591695975299}
   - component: {fileID: 1580005548819285671}
   - component: {fileID: 9094549301743744089}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1436853591695975299
 Transform:
@@ -327,12 +327,12 @@ GameObject:
   - component: {fileID: 1964627060427115778}
   - component: {fileID: 1748739981343964735}
   - component: {fileID: 8452699262789373511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1964627060427115778
 Transform:
@@ -413,12 +413,12 @@ GameObject:
   - component: {fileID: 4247298312152762045}
   - component: {fileID: 9002996829855524288}
   - component: {fileID: 340918045916614572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Quad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4247298312152762045
 Transform:

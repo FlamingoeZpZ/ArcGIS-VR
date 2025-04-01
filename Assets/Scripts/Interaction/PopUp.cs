@@ -5,14 +5,12 @@ namespace Interaction
 {
     public class PopUp : MonoBehaviour
     {
-
         private Vector3 _initialPosition;
         [SerializeField] private bool startIsGround = true;
         [SerializeField] private Vector3 endPosition;
-        [SerializeField] private float transitionDuration;
+        [SerializeField] private float transitionDuration = 1f;
         [SerializeField] private AnimationCurve animationCurve;
 
-        private float _currentProgress;
         private Coroutine _currentRoutine;
 
         private void Awake()
@@ -20,55 +18,56 @@ namespace Interaction
             if (startIsGround && Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 10))
             {
                 _initialPosition = hit.point;
-                endPosition = new Vector3(0, hit.distance, 0);
-                transform.localPosition = hit.point;
+                endPosition = _initialPosition + new Vector3(0, hit.distance, 0);
+                transform.localPosition = _initialPosition;
             }
             else _initialPosition = transform.localPosition;
-            
-            
         }
 
         private void OnEnable()
         {
-            if (_currentRoutine != null)
-            {
-                StopCoroutine(_currentRoutine);   
-            }
-            _currentRoutine = StartCoroutine(TransitionIn());
+            StartTransition(TransitionIn());
         }
 
-        private void OnDisable()
+        public void Hide()
+        {
+            StartTransition(TransitionOut());
+        }
+
+        private void StartTransition(IEnumerator transition)
         {
             if (_currentRoutine != null)
             {
-                StopCoroutine(_currentRoutine);   
+                StopCoroutine(_currentRoutine);
             }
-            _currentRoutine = StartCoroutine(TransitionOut());
+            _currentRoutine = StartCoroutine(transition);
         }
 
         private IEnumerator TransitionIn()
         {
-            while (_currentProgress <= transitionDuration)
+            float progress = 0f;
+            while (progress < transitionDuration)
             {
-                _currentProgress += Time.deltaTime;
-                transform.localPosition = Vector3.LerpUnclamped(_initialPosition, endPosition, animationCurve.Evaluate(_currentProgress/transitionDuration));
+                progress += Time.deltaTime;
+                float t = Mathf.Clamp01(progress / transitionDuration);
+                transform.localPosition = Vector3.LerpUnclamped(_initialPosition, endPosition, animationCurve.Evaluate(t));
                 yield return null;
             }
-            _currentProgress = transitionDuration;
             transform.localPosition = endPosition;
         }
-        
+
         private IEnumerator TransitionOut()
         {
-            while (_currentProgress >= 0)
+            float progress = transitionDuration;
+            while (progress > 0f)
             {
-                _currentProgress -= Time.deltaTime;
-                transform.localPosition = Vector3.LerpUnclamped(_initialPosition, endPosition, animationCurve.Evaluate(_currentProgress/transitionDuration));
+                progress -= Time.deltaTime;
+                float t = Mathf.Clamp01(progress / transitionDuration);
+                transform.localPosition = Vector3.LerpUnclamped(endPosition, _initialPosition, animationCurve.Evaluate(t));
                 yield return null;
             }
-            _currentProgress = 0;
             transform.localPosition = _initialPosition;
+            gameObject.SetActive(false); // Properly disables after transition
         }
-
     }
 }
