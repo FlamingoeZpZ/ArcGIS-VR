@@ -5,18 +5,24 @@ namespace Interaction
 {
     public class StareAt : MonoBehaviour
     {
-        [SerializeField] private Transform target;
+        private Camera _mainCamera;
 
-        private void Awake()
+        private void Start()
         {
-            if(!target)
-                if (Camera.main != null)
-                    target = Camera.main.transform;
+            // Cache the main camera once at the start.
+            _mainCamera = Camera.main;
+            
+            if (_mainCamera == null) enabled = false; // Ensure the camera is set
+
         }
 
         private void LateUpdate()
         {
-            transform.LookAt(transform.position-target.position);
+
+            // Make the object face the camera by calculating the direction
+            Vector3 directionToCamera = _mainCamera.transform.position - transform.position;
+            directionToCamera.y = 0; // Optional: Ignore vertical rotation (so it only rotates horizontally)
+            transform.rotation = Quaternion.LookRotation(directionToCamera);
         }
     }
 }
